@@ -1,0 +1,60 @@
+/* *{
+  
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+} */
+body
+{
+    background-color: #f7ecde;
+}
+.tittle
+{
+    
+    color: #352e28;
+}
+.tittle h1
+{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Pacifico", cursive;
+}
+.tittle h1::before
+{
+    content: '';
+    position: absolute;
+    width: 27%;
+    height: 18%;
+    background-color: #fec260;
+    bottom: 30%;
+    left: 37%;
+    transition: all 2s;
+    z-index: -1;
+}
+.tittle h1::before:hover
+{
+    left: 30%;
+}
+.caption
+{
+    color: #b5ac49;
+    font-size: 30px;
+}
+
+.row button
+{
+    width: 15%;
+    margin: auto;
+    
+}
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+
+}
